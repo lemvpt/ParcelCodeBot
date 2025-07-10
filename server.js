@@ -11,8 +11,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
 // Slack Bot Token and Channel ID
-const SLACK_BOT_TOKEN = 'xoxb-2151436110-9189698772289-5qvhi2kBOqGzgSh6w5FVyxLB';
-const CHANNEL_ID = 'C0957RZ5KRA';
+const SLACK_BOT_TOKEN = 'TOKEN_HERE';
+const CHANNEL_ID = 'ID_HERE';
 
 app.get('/api/messages', async (req, res) => {
   try {
