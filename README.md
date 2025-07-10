@@ -1,6 +1,10 @@
-# Slack Message Viewer
+# Slack Message Web Viewer
 
-This project shows the latest 20 messages from a Slack channel using a simple frontend and secure backend proxy.
+Shows the latest N messages from a Slack channel using a simple HTML frontend and secure backend proxy.
+
+Default N=20.
+
+⚠️ Replace API bot token and channel ID in server.js
 
 ## ⚙️ Setup
 
